@@ -1,7 +1,7 @@
 {
-  "name": "react-when",
+  "name": "c-when",
   "version": "1.0.0",
-  "description": "react-when React component",
+  "description": "c-when React component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -23,9 +23,14 @@
     "react": "15.x"
   },
   "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-enzyme": "^0.8.0",
+    "enzyme": "^2.9.1",
     "nwb": "0.17.x",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-addons-test-utils": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1"
   },
   "author": "",
   "homepage": "",

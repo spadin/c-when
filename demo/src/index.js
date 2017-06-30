@@ -1,15 +1,17 @@
-import React, {Component} from 'react'
+import React from 'react'
+import When from '../../src'
 import {render} from 'react-dom'
 
-import Example from '../../src'
 
-class Demo extends Component {
-  render() {
-    return <div>
-      <h1>react-when Demo</h1>
-      <Example/>
-    </div>
-  }
-}
+const Demo = () => (
+  <div>
+    <When predicate={true}>
+      <span>This should display</span>
+    </When>
+    <When predicate={false}>
+      <span>This should not display</span>
+    </When>
+  </div>
+);
 
 render(<Demo/>, document.querySelector('#demo'))
