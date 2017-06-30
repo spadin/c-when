@@ -5,8 +5,7 @@ node_js:
   - 6
 
 after_success:
-  - npm install codecov.io coveralls
-  - cat ./coverage/lcov.info | ./node_modules/codecov/bin/codecov.io.js
+  - npm install coveralls
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
 
 branches:
