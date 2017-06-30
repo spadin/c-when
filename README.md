@@ -18,17 +18,17 @@ const App = ({isLoggedIn}) => (
 );
 ```
 
-you can use `<When/>` do conditionally render some React
+you can use `<When/>` to conditionally render some React
 
 ```js
 import When from 'c-when';
 
 const App = ({isLoggedIn}) => (
-<div>
-  <When predicate={isLoggedIn}>
-    <div>Some secret content</div>
-  </When>
-</div>
+  <div>
+    <When predicate={isLoggedIn}>
+      <div>Some secret content</div>
+    </When>
+  </div>
 );
 ```
 
