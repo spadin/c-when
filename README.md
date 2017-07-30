@@ -32,6 +32,22 @@ const App = ({isLoggedIn}) => (
 );
 ```
 
+you can also pass a function as the child of `<When/>`, this way, the child will be invoke only if the predicate is `true`.
+
+```js
+import When from 'c-when';
+
+const App = ({user}) => (
+  <div>
+    <When predicate={user}>
+    {() => (
+      <div>Welcome back {user.name}!</div>
+    )}
+    </When>
+  </div>
+);
+```
+
 [build-badge]: https://img.shields.io/travis/spadin/c-when/master.png?style=flat-square
 [build]: https://travis-ci.org/spadin/c-when
 
