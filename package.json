@@ -1,6 +1,6 @@
 {
   "name": "c-when",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "c-when React component",
   "main": "lib/index.js",
   "module": "es/index.js",
