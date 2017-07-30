@@ -32,7 +32,10 @@ const App = ({isLoggedIn}) => (
 );
 ```
 
-you can also pass a function as the child of `<When/>`, this way, the child will be invoke only if the predicate is `true`.
+you can also pass a function as the child of `<When/>`. The function should not
+need any parameters and should return the children you'd like rendered when
+`predicate` is `true`. Passing in a function is useful when the `children` need
+to access objects that are only available if the `predicate` is `true`.
 
 ```js
 import When from 'c-when';
