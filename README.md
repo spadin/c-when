@@ -1,5 +1,7 @@
 # `<When/>`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/spadin/c-when.svg)](https://greenkeeper.io/)
+
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
