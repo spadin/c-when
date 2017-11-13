@@ -29,7 +29,7 @@
     "nwb": "~0.18.10",
     "react": "^15.6.1",
     "react-addons-test-utils": "^15.6.0",
-    "react-dom": "^15.6.1",
+    "react-dom": "^16.1.1",
     "react-test-renderer": "^15.6.1",
     "sinon": "^3.2.1",
     "sinon-chai": "^2.12.0"
