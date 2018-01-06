@@ -54,4 +54,16 @@ describe('<When/>', () => {
 
     expect(component).to.contain(child);
   });
+
+  it('renders return value from render function if passed in', () => {
+    const child = <span>Content from a render function</span>;
+    const component = shallow(
+      <When
+        predicate={true}
+        render={() => (child)}
+      />
+    );
+
+    expect(component).to.contain(child);
+  });
 });
