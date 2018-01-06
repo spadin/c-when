@@ -53,6 +53,23 @@ const App = ({user}) => (
 );
 ```
 
+If you'd rather pass in a render prop, you can do that instead.
+
+```js
+import When from 'c-when';
+
+const App = ({user}) => (
+  <div>
+    <When
+      predicate={user}
+      render={() => (
+        <div>Welcome back {user.name}!</div>
+      )}
+    />
+  </div>
+);
+```
+
 [build-badge]: https://img.shields.io/travis/spadin/c-when/master.png?style=flat-square
 [build]: https://travis-ci.org/spadin/c-when
 
