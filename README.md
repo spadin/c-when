@@ -44,7 +44,7 @@ import When from 'c-when';
 
 const App = ({user}) => (
   <div>
-    <When predicate={user}>
+    <When predicate={user !== undefined}>
     {() => (
       <div>Welcome back {user.name}!</div>
     )}
@@ -61,7 +61,7 @@ import When from 'c-when';
 const App = ({user}) => (
   <div>
     <When
-      predicate={user}
+      predicate={user !== undefined}
       render={() => (
         <div>Welcome back {user.name}!</div>
       )}
