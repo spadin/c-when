@@ -30,7 +30,7 @@
     "react": "^16.8.2",
     "react-addons-test-utils": "^15.6.0",
     "react-dom": "^16.8.2",
-    "react-test-renderer": "^15.6.1",
+    "react-test-renderer": "^16.8.2",
     "sinon": "^3.2.1",
     "sinon-chai": "^2.12.0"
   },
